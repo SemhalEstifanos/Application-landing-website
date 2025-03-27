@@ -22,6 +22,9 @@ body{
     
    
 }
+#feature{
+    color: black;
+}
 a {
     text-decoration: none;
     color: gray;
@@ -62,7 +65,7 @@ margin-top: 30px;
 #login{
     margin-left: 8%;
     background-color: white;
-    color: rgb(43, 40, 40);
+    color: black;
 }
 #signup{
     
@@ -228,11 +231,10 @@ margin-top: 30px;
     font-size: 70px;
 }
 
-.side-part {
+.roger-container{
     margin-top: -3%;
     margin-left: 3%;
     background-color: white;
-    /* padding-left: 40px; */
     border-radius: 30px;
     width: 30%;
     transform: rotate(-5deg);
@@ -240,13 +242,14 @@ margin-top: 30px;
 }
 
 #roger {
-    width: 60px;
+    width: 90px;
+
 }
 
 .image-receive {
     display: flex;
-    gap: 30px;
-    color: rgb(67, 172, 207);
+    gap: 40px;
+    color: rgb(57, 65, 175);
     background-color: rgb(231, 243, 247);
     border-radius: 10px;
 
@@ -267,6 +270,7 @@ margin-top: 30px;
     margin-left: 40%;
     border-radius: 30px;
 }
+
 .right {
     margin-top: 15%;
     margin-left: 10%;
@@ -297,7 +301,7 @@ margin-top: 30px;
 }
 
 #yellow{
-    height: 40px;
+    height: 45px;
     background-color: rgb(248, 248, 161);
 }
 #woman-image {
@@ -431,8 +435,6 @@ margin-top: 30px;
 .mobile-app {
     margin-top: 8%;
     width: 90%;
-
-    /* margin-left: 15%; */
 }
 
 .mobile-app button {
@@ -508,12 +510,11 @@ margin-top: 30px;
 
     padding-left: 20px;
 }
-
-#edwin-font {
+.edwin-text{
     font-size: 20px;
 }
 
-#edwin-style {
+#edwin-num {
     width: 20%;
     height: 20%;
     border-radius: 60px;
@@ -524,15 +525,22 @@ margin-top: 30px;
     gap: 230px;
 }
 
-#jecson-style {
+
+.jecson-image{
+    p{
+        
+       margin-left: 90%;
+    }
+}
+
+
+.jecson-image img {
+    display: flex;
+    gap: 230px;
+    width: 0%;
     width: 20%;
     height: 20%;
     border-radius: 60px;
-}
-
-.jecson-image {
-    display: flex;
-    gap: 230px;
 }
 
 .img-app {
@@ -577,25 +585,23 @@ margin-top: 30px;
 }
 footer{
     background-color: #283150;
-    width: 150%;
-  
+    width: 100%;
     color: white;
     display: flex;
-    justify-content: space-between;
-    padding: 2%;
-    flex-wrap: wrap;
     flex-direction: column;
+    height: 300%;
 }
 
 footer div{
-  
-    flex: 1;
-   
-}
+  flex: 1;
+   }
 
 .footer-upper{
     display: flex;
-
+}
+.darkfooter{
+   
+   height: 10%;
 
 }
 
@@ -603,13 +609,13 @@ footer div{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
-    width: 100%;
+   
     background-color: rgb(10, 10, 24);
     padding: 3%;
-  
+    width: 93.9%;
     font-size: large;
-  
+    height: 40px;
+   
 }
 
 footer.term-policy p:nth-last-child(1) {
