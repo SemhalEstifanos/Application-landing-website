@@ -5,11 +5,14 @@
 body{
     background-color: light #aaecec;
     overflow-x: hidden;
+    font-size: 20px;
+    
  
    
 }
 .wholecontainer{
     margin: 7% 10%;
+    
 
 }
 
@@ -43,7 +46,7 @@ button{
  
 }
 .app-button{
-margin-top: 30px;
+margin-top: 50px;
 }
 .app-button button{
 
@@ -74,7 +77,9 @@ margin-top: 30px;
     color: white;
 }
 .left-section{
+   
     margin-left: 10%;
+    /* line-height: 1.5px; */
     font-family: "all";
     p{
         color: gray;
@@ -117,14 +122,17 @@ margin-top: 30px;
     margin-top: 10%;
     display: flex;
     gap: 20%;
+    
 }
 
 .questionbelow{
-    font-size: 20px;
+    margin-top: 40px;
+    font-size: 15px;
     span{
         color: black;
     }
 }
+
  .logos {
     display: flex;
     gap: 90px;
@@ -236,14 +244,28 @@ margin-top: 30px;
     margin-left: 3%;
     background-color: white;
     border-radius: 30px;
-    width: 30%;
+    width: 35%;
     transform: rotate(-5deg);
 
 }
+.euros{
+    
+}
+#roger{
+    font-size: 30px;
+    border-radius: 40%;
+    
+   
+}
+#amount-monthly{
+    font-size: 70px;
+}
+#amount-salary{
+    font-size: 70px;
+}
 
-#roger {
-    width: 90px;
-
+#amount-work{
+    font-size: 50px;
 }
 
 .image-receive {
@@ -252,21 +274,30 @@ margin-top: 30px;
     color: rgb(57, 65, 175);
     background-color: rgb(231, 243, 247);
     border-radius: 10px;
+    
 
 }
 
 .technical-work {
+   
     display: flex;
+    line-height: 8px;
+    font-size: 20px;
+   
+}
+#amout-day{
+    font-size: 20px;
 }
 
 .work-day {
-    margin-left: 150px;
+    margin-left: 230px;
+    
 }
 
 #beard-man-image {
-    width: 55%;
+    width: 50%;
     position: absolute;
-    margin-top: -40%;
+    margin-top: -30%;
     margin-left: 40%;
     border-radius: 30px;
 }
@@ -283,7 +314,9 @@ margin-top: 30px;
 }
 #shady{
  color: grey;
+ font-size: 10px;
 }
+
 .create-container {
     display: flex;
     background-color: white;
@@ -597,6 +630,7 @@ footer div{
    }
 
 .footer-upper{
+    padding: 3%;
     display: flex;
 }
 .darkfooter{
@@ -637,10 +671,15 @@ footer ul{
     list-style-type: none;
     line-height: 40px;
 }
+#footer-dit{
+    
+
+}
 
 .icons-footer{
-    margin-top: -1%;
-    margin-left: 2%;
+    margin-top: 3%;
+    margin-left: 3%;
+    
 }
 .fa-brands{
     padding-right: 3%;
