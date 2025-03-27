@@ -21,13 +21,12 @@ body{
     color: gray;
     
    
-}a {
+}
+a {
     text-decoration: none;
     color: gray;
 }
-#feature{
-    color: rgb(32, 32, 32);
-}
+
 button{
     
    
@@ -40,19 +39,22 @@ button{
     
  
 }
+.app-button{
+margin-top: 30px;
+}
 .app-button button{
 
     background-color: rgb(25, 22, 70);
     color:black;
 }
 .app-button button{
-    border-radius: 70px;
+    border-radius: 30px;
     background-color: rgb(109, 104, 187);
     color:black;
 }
 
 #playstore-button{
-    border-radius: 70px;
+    border-radius: 30px;
     background-color: white;
     color: black;
 
@@ -70,6 +72,11 @@ button{
 }
 .left-section{
     margin-left: 10%;
+    font-family: "all";
+    p{
+        color: gray;
+        margin-bottom: 20px;
+    }
 }
 
 
@@ -82,26 +89,13 @@ button{
     color: red;
 }
 .over{
-    margin-top: 260px;
+    margin-top: 200px;
    justify-content: center;
    text-align: center;
     font-size: 40px;
 }
-.rightsection{
-    margin-right: 100px;
-    transform: skewX(7deg);
-    border: 1px solid black;
-    height: 500px;
-    width: 450px;
-    border-radius: 5%;
-   
-}
 
-
-
-
-/* 
-.background-decore {
+.shape {
     height: 300px;
     width: 250px;
     border-radius: 5rem;
@@ -112,7 +106,7 @@ button{
     position: absolute;
     rotate: 19deg;
     background-color: rgb(222, 149, 231);
-} */
+}
 
 
 .first-section{
@@ -122,6 +116,12 @@ button{
     gap: 20%;
 }
 
+.questionbelow{
+    font-size: 20px;
+    span{
+        color: black;
+    }
+}
  .logos {
     display: flex;
     gap: 90px;
@@ -561,6 +561,7 @@ button{
 }
 #platform{
     margin-top: 20%;
+   
 }
 .app-play-button button:nth-child(1){
     height: 44px;
@@ -613,7 +614,7 @@ footer div{
 
 footer.term-policy p:nth-last-child(1) {
     border-left: 3px solid white;
-    padding-left: 15%;
+    padding-left: 1%;
 }
 
 .offers {
