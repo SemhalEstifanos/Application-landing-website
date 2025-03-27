@@ -30,6 +30,7 @@ body{
 }
 button{
     
+   
     margin-top: -2%;
     height:50px;
     width:150px;
@@ -38,6 +39,23 @@ button{
     font-size: large;
     
  
+}
+.app-button button{
+
+    background-color: rgb(25, 22, 70);
+    color:black;
+}
+.app-button button{
+    border-radius: 70px;
+    background-color: rgb(109, 104, 187);
+    color:black;
+}
+
+#playstore-button{
+    border-radius: 70px;
+    background-color: white;
+    color: black;
+
 }
 #login{
     margin-left: 8%;
@@ -82,7 +100,7 @@ button{
 
 
 
-
+/* 
 .background-decore {
     height: 300px;
     width: 250px;
@@ -94,7 +112,7 @@ button{
     position: absolute;
     rotate: 19deg;
     background-color: rgb(222, 149, 231);
-}
+} */
 
 
 .first-section{
@@ -332,7 +350,7 @@ button{
     width: 90%;
    
 
-    /* margin-left: 15%; */
+  
 }
 
 .mobile-app button {
@@ -376,7 +394,11 @@ button{
 }
 
 #anjela {
+    margin-top: 20px;
     margin-left: -10%;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
 }
 
 #angela-image {
@@ -385,7 +407,7 @@ button{
     width: 35%;
     margin-left: -10%;
 }
-helping-customer {
+.helping-customer {
     text-align: center;
     font-size: 180%;
     margin-top: 6%;
